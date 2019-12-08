@@ -21,4 +21,10 @@ end
 
 def find_min_value(array)
   # Add your solution here
+   counter = 0
+  while counter < array.length do
+    sorted_array =  array.sort
+    counter += 1
+  end
+  return sorted_array[0]
 end
